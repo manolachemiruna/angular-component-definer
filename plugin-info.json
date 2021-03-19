@@ -1,0 +1,18 @@
+{
+  "id": "angular-component-definer",
+  "name": "Angular Component Definer",
+  "description": "This plugin splits files from an Angular project into components",
+  "version": "0.0.1",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "angular-component-definer",
+      "name": "Angular Component Definer",
+      "type": "componentDefiner",
+      "description": "Generates Components based on files name convention and highlights module files,services, directories and guards ",
+      "commandTemplate": "java -jar angular-component-definer.jar ${outputFile} ${filesToGroup}",
+      "configurationFields": []
+    }
+  ]
+}
